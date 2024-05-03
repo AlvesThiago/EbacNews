@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+    text-transform: none;
+    transition: all .1s linear;
+}
+
+
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body > header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    background-color: #18161e;
+    padding: 16px 0;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a:hover{
+    background: rgb(48, 108, 199);
+    padding: 1px;
+    border-radius: 3px;
+    letter-spacing: .1rem;
+}
+
+#sports{
+    margin-top: 75px;
+}
+
+.container{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img{
+    width: 100%;
+}
+
+.article article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, .article article {
+    margin-bottom: 16px;
+}
+
+.article article a{
+    background-color: rgb(86, 153, 86);
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+}
+
+.article article a:hover{
+    background-color: rgb(103, 189, 103);
+    letter-spacing: .1rem;
+}
+
+.article article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.article article p{
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.articlecolor article{
+    color: #fff;
+}
+
+.articlecolor article a{
+    background-color: rgb(27, 86, 173);
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+}
+
+.articlecolor article a:hover{
+    background-color: rgb(48, 108, 199);
+    letter-spacing: .1rem;
+}
+
+.titlecolor h2{
+    color: #fff;
+}
+
+section h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#sports, #economy{
+    background-color: #f6f6f6;
+}
+
+#entertainment, #tech{
+    background-color: #18161e;
+}
+
+.footer{
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.devName{
+    color: rgb(27, 86, 173) ;
+}
